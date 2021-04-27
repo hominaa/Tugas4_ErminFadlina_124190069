@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/tv_profil"
+        android:layout_width="465dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-105dp"
+        android:layout_marginRight="-105dp"
+        android:layout_marginBottom="185dp"
+        android:layout_centerHorizontal="true"
+        android:text="Username : Siti Hamida"
+        android:textSize="30dp"></TextView>
+
+    <TextView
+        android:layout_width="435dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-73dp"
+        android:layout_marginRight="-73dp"
+        android:layout_marginBottom="105dp"
+        android:layout_centerHorizontal="true"
+        android:text="Password : siti123"
+        android:textSize="30dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="191dp"
+        android:layout_height="112dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cat" />
+
+</RelativeLayout>
